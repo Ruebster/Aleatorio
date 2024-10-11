@@ -1,0 +1,70 @@
+Codigos aleatorios
+
+
+alunos =['Mario', 'Luigi', 'Yoshi' ,'Toad ']
+
+for nome in alunos:
+  for letra in nome:
+    print(letra)
+  print()
+
+
+
+#Lista
+alunos = ['Mario', 'Luigi','Yoshi','Toad']
+#print(alunos)
+alunos[0]='Super Mario'
+#print(alunos)
+#print(len(alunos))
+#for nome in alunos:
+#  print(nome)
+#for i in range (len(alunos)):
+# print(alunos[i])
+for i,v in enumerate(alunos):
+  print(  f'na posição {i} existe o elemento {v}' )
+  
+  
+  
+ 
+ 
+ def somar(num1,num2=0,num3=0,num4=0,num5=0):
+  resultado = num1 + num2 + num3 + num4 + num5
+  print('resposta',resultado)
+somar(10,20,30)
+somar(30,40)
+somar (90)
+
+
+
+
+qtd = int(input('Digite o número de pessoas:'))
+#x +=1  x = x+1
+#x -=10 x = x-10
+
+while qtd >0:
+   print('Olá vagabundo , Bom dia')
+   if qtd == 2:
+      print('Vá tomar no cú')
+   qtd -=1
+
+
+
+
+
+idade = int (input('Digite a sua Idade idiota: '))
+
+if idade > 65:
+    print('Acesso Master Punhetal')
+elif idade > 18:
+    print('Liberado você está no paraíso')
+else:
+    print('Se fudeu não pode ter acesso')
+print('Eis o resultado')
+
+
+
+
+Idade = int( input('Digite a sua idade seu cagado:'))
+peso  = float(input('Digite sua banha:'))
+print(f'Sua idade é {Idade} e sua Banha de porco é {peso}.')
+
